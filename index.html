@@ -1,0 +1,86 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhytoMedica</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="tema">🌙</button>
+
+<header>
+<h1>🌿 PhytoMedica</h1>
+<p>O poder das plantas medicinais</p>
+</header>
+
+<section>
+<h2>🔎 Pesquisa</h2>
+
+<input id="busca" placeholder="Ex: dor de cabeça">
+<button onclick="pesquisar()">Pesquisar</button>
+
+<p id="resultado"></p>
+</section>
+
+<section>
+<h2>🌱 Plantas Medicinais</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1514996937319-344454492b37">
+<h3>Camomila</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf">
+<h3>Hortelã</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1457530378978-8bac673b8062">
+<h3>Alecrim</h3>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>🏆 Quiz</h2>
+
+<p>Qual destas é uma erva medicinal?</p>
+
+<input type="radio" name="q1" value="1"> Camomila<br>
+<input type="radio" name="q1" value="0"> Pedra<br><br>
+
+<button onclick="quiz()">Ver Resultado</button>
+
+<p id="pontos"></p>
+
+</section>
+
+<section>
+<h2>💡 Curiosidade</h2>
+
+<p id="curiosidade">
+Clique para descobrir uma curiosidade.
+</p>
+
+<button onclick="curiosidade()">
+Nova Curiosidade
+</button>
+
+</section>
+
+<footer>
+PhytoMedica 🌿
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
